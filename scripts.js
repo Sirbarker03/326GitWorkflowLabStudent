@@ -54,3 +54,9 @@ function runCosine() {
     display.value = v;
 }
 
+function runSine() {
+    const v = sine(display.value);
+    display.value = v;
+}
+
+
