@@ -17,3 +17,9 @@ describe('Calculator Calculation Functions', function() {
 
 
 // Add your tests here
+describe('Calculator Cosine Function', function() {
+    const res = calculator.cosine(Math.PI);
+    it('should return -1', function() {
+        assert.strictEqual(res, -1);
+    });
+})
