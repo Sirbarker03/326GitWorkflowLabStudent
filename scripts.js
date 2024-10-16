@@ -1,3 +1,4 @@
+const { cosine } = require("./calculator");
 
 let display = document.getElementById('display');
 
@@ -48,5 +49,14 @@ function runReciprocal() {
 }
 
 // TODO: Implement run your functions here
+function runCosine() {
+    const v = cosine(display.value);
+    display.value = v;
+}
+
+function runSine() {
+    const v = sine(display.value);
+    display.value = v;
+}
 
 
