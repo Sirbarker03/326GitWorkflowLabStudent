@@ -4,6 +4,7 @@
 function calculateSquareRoot(value) {
     // Hint: Use exponentiation
     return Math.sqrt(value);
+    //test changes
     // return the square root of the value
 }
 
